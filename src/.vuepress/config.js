@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'ftc-starter-pack-docs',
+  title: 'FTC Starter Pack Docs',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
