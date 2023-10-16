@@ -19,7 +19,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#12127D' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'icon', href: '/GreasedLightningLogo-transformed.png' }]
+    ['link', { rel: 'icon', href: 'https://github.com/vintheruler1/ftc-starter-pack-docs/blob/main/images/GreasedLightningLogo-transformed.png?raw=true' }]
   ],
 
   /**
