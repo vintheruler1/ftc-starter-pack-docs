@@ -214,6 +214,8 @@ If you run the file, it should print out the telemetry.
 
 Common Errors:
 
-joe amma
+Device not found
+
+This can be fixed by entering the configuration of the robot. Make sure that you spelt and capitalized everything correctly and have it under the correct segment.
 
 :::
