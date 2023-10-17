@@ -162,10 +162,7 @@ There is an overridden method called runOpMode. Every op mode of type LinearOpMo
 
 ```java
 imu = hardwareMap.get(Gyroscope.class, "imu");
-motorTest = hardwareMap.get(DcMotor.class, "motorTest");
-digitalTouch = hardwareMap.get(DigitalChannel.class, "digitalTouch");
-sensorColorRange = hardwareMap.get(DistanceSensor.class, "sensorColorRange");
-servoTest = hardwareMap.get(Servo.class, "servoTest");
+topLeftMotor = hardwareMap.get(DcMotor.class, "topLeft");
 ```
 
 The hardwareMap object is available to use in the runOpMode method. It is an object of type HardwareMap class.
