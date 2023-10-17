@@ -2,6 +2,47 @@
 sidebar: auto
 ---
 
+<div class="blob-container">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" class="blob">
+    <path
+      d="M106.5,22.4C86.5,2.5,55.4,4.1,35.1,23.7S1,72.2,2.3,96.7C3.6,121.3,37.5,160.6,47.2,192.9S22.3,269.6,40.8,292.9
+      c18.6,23.3,51.7,42.2,73.4,41.5c21.7-0.7,32-28.7,52.5-48.3c20.6-19.5,52-30.6,56.8-53.3s-8.2-46.3-3.1-68.3
+      c5-22,28.1-35.4,38.3-32.2C189.1,127.4,160.9,124.6,137.5,121s-47.4-10.8-52.3-28.2C82.3,56.6,127.5,42.3,106.5,22.4z"
+    />
+  </svg>
+</div>
+
+<style scoped>
+.blob-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.blob {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -10%;
+  left: -10%;
+  fill: #3498db; /* Change color as needed */
+  animation: moveBlob 10s infinite linear;
+}
+
+@keyframes moveBlob {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(10%, 10%);
+  }
+}
+</style>
+
 # Welcome to the FTC Starter Pack!
 
 <img src="https://github.com/vintheruler1/FTC-Starter-Pack/blob/main/images/Banner.png?raw=true">
