@@ -76,7 +76,7 @@ Please check out the official FTC documentation [here.](https://ftctechnh.github
 ### FTC Sample OpModes
 
 Navigate to the folder path here
-`FtcRobotController.java.org.firstinspires.ftc.robotcontroller.external.samples`
+"FtcRobotController.java.org.firstinspires.ftc.robotcontroller.external.samples".
 Located in there are some sample OpModes that are in there. To use them, look for the line of code that says `@Disabled` and uncomment it (make it look like `//@Disabled`)
 
 
